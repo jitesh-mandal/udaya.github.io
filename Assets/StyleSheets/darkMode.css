@@ -1,0 +1,13 @@
+:root
+{
+    --header_bg : #050505;
+    --header_color : #ffff;
+    --nav_bg : #050505;
+    --nav_color : #fff;
+
+    --dark_bg : #050505;
+
+    --button_bg : #fff;
+    --button_color : #000;
+    --button_shadow : #fff;
+}

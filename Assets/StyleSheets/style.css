@@ -1,0 +1,276 @@
+@import url("darkMode.css");
+@import url("lovemore.css");
+@import url('https://fonts.googleapis.com/css2?family=Luckiest+Guy&display=swap');
+
+*{ margin: 0; padding: 0; font-family: josefin sans;}
+
+body
+{
+    height: auto;
+    overflow-x: hidden;
+    /* background-image: url("../Pictures/header-bg.jpg");
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed; */
+    background-color: var(--dark_bg);
+}
+
+header
+{
+    min-height: 40vh;
+    background-color: var(--header_bg);
+    color: var(--header_color);
+}
+
+header nav
+{
+    height: 60px;
+    width: 100%;
+    background-color: var(--nav_bg);
+    /* background-color: red; */
+
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    position: fixed;
+}
+
+/* header nav h1
+{
+    background-color: yellow;
+} */
+
+header nav ul
+{
+    width: 30%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    /* background-color: blue; */
+}
+
+header nav ul li
+{
+    list-style: none;
+    width: 25%;
+    /* background-color: orange; */
+    text-align: center;
+    cursor: pointer;
+}
+
+header nav ul li:hover
+{
+    text-decoration: underline;
+}
+
+header nav ul button
+{
+    width: 120px;
+    height: 40px;
+    background-color: var(--button_bg);
+    color: var(--button_color);
+    border-radius: 50px;
+    border: none;
+    box-shadow: 10px 2px 15px 2px var(--button_shadow);
+}
+
+header .container
+{
+    height: auto;
+    width: 100%;
+    /* background-color: #0000007c; */
+}
+
+header .container .container_head
+{
+    min-height: 35vh;
+    width: 100%;
+    position: relative;
+    top: 60px;
+    z-index: 454;
+    /* background-color: rgb(0, 0, 0); */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+header .container .container_head h1
+{
+    width: 90%;
+    /* background-color: red; */
+    text-align: start;
+    font-size: calc(10px + 18vmin);
+    font-family: 'Luckiest Guy', cursive;
+}
+
+header .container .container_head .co-h_child
+{
+    width: 90%;
+    height: auto;
+    /* background-color: blue; */
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header .container .container_head .co-h_child div
+{
+    height: 100px;
+    width: 30%;
+    /* background-color: yellow; */
+    display: flex;
+    align-items: center;
+}
+
+header .container .container_foot
+{
+    margin-top: 60px;
+    height: 45vh;
+    width: 90%;
+    background-color: rgb(255, 255, 255);
+    border-top-right-radius: 150px;
+    border-bottom-right-radius: 150px;
+    overflow: hidden;
+}
+
+header .container .container_foot div
+{
+    height: 50%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header .container .container_foot div div
+{
+    height: 100%;
+    width: 20%;
+    background-size: cover !important;
+    background-position: center !important;
+}
+
+header .container .container_foot div .img1{background: url("../Pictures/pics/1.jpg");}
+header .container .container_foot div .img2{background: url("../Pictures/pics/2.jpg");}
+header .container .container_foot div .img3{background: url("../Pictures/pics/3.jpg");}
+header .container .container_foot div .img4{background: url("../Pictures/pics/big.jpeg");}
+header .container .container_foot div .img5{background: url("../Pictures/pics/5.jpg");}
+header .container .container_foot div .img6{background: url("../Pictures/pics/fav.jpg");}
+header .container .container_foot div .img7{background: url("../Pictures/pics/love.jpg");}
+header .container .container_foot div .img8{background: url("../Pictures/pics/8.jpg");}
+header .container .container_foot div .img9{background: url("../Pictures/pics/12.jpg");}
+header .container .container_foot div .img10{background: url("../Pictures/pics/11.jpg");}
+
+header #chat
+{
+    height: 100px;
+    width: 100px;
+    background-color: transparent;
+    color: #000;
+    position: fixed;
+    bottom: 0%;
+    right: 0%;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+header #chat button
+{
+    height: 60px;
+    width: 60px;
+    border: none;
+    outline: none;
+    border-radius: 50px;
+}
+
+section
+{
+    min-height: 100vh;
+    width: 100%;
+    /* background-color: red; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+section .container
+{
+    left: 10%;
+    min-height: 70vh;
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* justify-content: center; */
+    /* background: url("../Pictures/pics/fav.jpg");
+    background-position: center;
+    background-size: cover; */
+}
+
+section .container .container_head
+{
+    height: 100%;
+    width: 100%;
+    /* background-color: rgba(0, 0, 0, 0);
+    backdrop-filter: blur(5px); */
+    /* text-align: center; */
+    line-height: 50px;
+    font-weight: 100;
+    font-size: calc(15px + 2vmin);
+    color: #fff;
+}
+
+section .container .container_head h1
+{
+    width: 100%;
+    text-align: center;
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+
+footer 
+{
+    min-height: 10vh;
+    width: 100%;
+    background-color: #0e0d0d;
+    color: #d6d6d6;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+::-webkit-scrollbar
+{
+    width: 1px;
+}
+
+::-webkit-scrollbar-thumb
+{
+    background-color: #fff;
+}
+
+@media screen and (max-width:500px){
+    header nav ul li
+    {
+        display: none;
+    }
+    header .container .container_foot
+    {
+        width: 100%;
+        border-top-right-radius: 0px;
+        border-bottom-right-radius: 0px;
+    }
+
+    header .container .container_foot div div
+    {
+        width: 34%;
+    }
+    header .img1, .img2, .img6, .img7
+    {
+        display: none !important;
+    }
+}
